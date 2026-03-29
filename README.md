@@ -8316,13 +8316,13 @@ css/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/msa-iqbal/hands-on-html5.git
+   git clone https://github.com/msa-iqbal/hands-on-css3.git
    ```
 
 2. Navigate to the folder:
 
    ```bash
-   cd hands-on-html3
+   cd hands-on-css3
    ```
 
 3. Open `README.md` in your favorite Markdown editor (e.g., [Obsidian](https://obsidian.md/), [VS Code](https://code.visualstudio.com/), [Typora](https://typora.io/))
@@ -8330,7 +8330,7 @@ css/
 ## 📦 Repository Structure
 
 ```plaintext
-hands-on-html3/
+hands-on-css3/
 ├── README.md               # Project overview and notes
 ├── LICENSE                 # MIT License
 └── .vscode/
@@ -8352,7 +8352,7 @@ If you’d like to add, improve, or correct a note:
 2. Add or edit content in Markdown
 3. Submit a pull request
 
-For suggestions, open an [issue](https://github.com/msa-iqbal/hands-on-html5/issues).
+For suggestions, open an [issue](https://github.com/msa-iqbal/hands-on-css3/issues).
 
 ## 📄 License
 
