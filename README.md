@@ -24,7 +24,7 @@ Perfect for learners and developers who need a quick, practical CSS3 reference a
 | 5   | [CSS Specificity and Cascade](#css-specificity-and-cascade) | What is Cascade, Specificity Rules, Importance (`!important`), Inheritance, How Conflicts are Resolved                                                                                                                                                                                                                                                                                                                             |
 | 6   | [CSS Values and Units](#css-values-and-units)               | Absolute Units, Relative Units, `calc()` Function, Absolute vs Relative Units, CSS Units Table, CSS Units Measurement Table                                                                                                                                                                                                                                                                                                        |
 | 7   | [Colors in CSS](#colors-in-css)                             | Color Names, HEX Colors, RGB & RGBA, HSL & HSLA, `opacity`, Gradients                                                                                                                                                                                                                                                                                                                                                              |
-| 8   | [CSS Box Model](#css-box-model)                             | Content, `padding`, `border`, Border vs Outline, `margin`, `box-sizing`, `box-shadow`, Border vs Outline                                                                                                                                                                                                                                                                                                                           |
+| 8   | [CSS Box Model](#css-box-model)                             | Content, `padding`, `border`, `margin`, `box-sizing`, `box-shadow`                                                                                                                                                                                                                                                                                                                                                                 |
 | 9   | [Display and Visibility](#display-and-visibility)           | `display`, `visibility`, `overflow`                                                                                                                                                                                                                                                                                                                                                                                                |
 | 10  | [Typography (Text and Fonts)](#typography-text-and-fonts)   | `font-family`, `font-size`, `font-weight`, `font-style`, `line-height`, `letter-spacing`, `word-spacing`, `text-align`, `text-transform`, `text-decoration`, `text-shadow`, `font-variant`, `font-stretch`, `font-kerning`, `text-overflow`, `white-space`, `overflow-wrap`, `word-break`, `writing-mode`, `direction`, `vertical-align`, `text-indent`, `text-justify`, `tab-size`, `text-orientation`, `hyphens`, `Google Fonts` |
 | 11  | [CSS Backgrounds](#css-backgrounds)                         | `background-color`, `background-image`, `background-repeat`, `background-position`, `background-size`, `background-attachment`, `background-clip`, `background-origin`, `background-blend-mode`                                                                                                                                                                                                                                    |
@@ -1861,6 +1861,20 @@ Order (inside → outside):
 ```plaintext
 Content → Padding → Border → Margin
 ```
+
+**❏❏❏ Box Model Impact:**
+
+```css
+div {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+}
+```
+
+Actual size:
+
+`200 + 20 + 20 + 5 + 5 = 250px`
 
 ## 🗁 Content
 
