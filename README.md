@@ -15,33 +15,37 @@ Perfect for learners and developers who need a quick, practical CSS3 reference a
 
 # Table of Contents
 
-| #   | Topic                                                       | Subtopics                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| --- | ----------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | [Introduction](#introduction)                               | What is CSS, History of CSS, CSS Versions, How CSS Works with HTML, Syntax of CSS, Comments in CSS                                                                                                                                                                                                                                                                                                                                 |
-| 2   | [Ways to Use CSS](#ways-to-use-css)                         | Inline CSS, Internal CSS, External CSS, Priority Order, `!important`                                                                                                                                                                                                                                                                                                                                                               |
-| 3   | [X and Y Axis Coordinator](#x-and-y-axis-coordinator)       | Axes, Coordinate Format, Quadrants, Important Formula                                                                                                                                                                                                                                                                                                                                                                              |
-| 4   | [CSS Selectors](#css-selectors)                             | Universal Selector, Class Selector, ID Selector, Group Selector, Descendant Selector, Child Selector, Adjacent Sibling Selector, General Sibling Selector, Attribute Selector, Pseudo-class, Pseudo-element                                                                                                                                                                                                                        |
-| 5   | [CSS Specificity and Cascade](#css-specificity-and-cascade) | What is Cascade, Specificity Rules, Importance (`!important`), Inheritance, How Conflicts are Resolved                                                                                                                                                                                                                                                                                                                             |
-| 6   | [CSS Values and Units](#css-values-and-units)               | Absolute Units, Relative Units, `calc()` Function, Absolute vs Relative Units, CSS Units Table, CSS Units Measurement Table                                                                                                                                                                                                                                                                                                        |
-| 7   | [Colors in CSS](#colors-in-css)                             | Color Names, HEX Colors, RGB & RGBA, HSL & HSLA, `opacity`, Gradients                                                                                                                                                                                                                                                                                                                                                              |
-| 8   | [CSS Box Model](#css-box-model)                             | Content, `padding`, `border`, `margin`, `box-sizing`, `box-shadow`                                                                                                                                                                                                                                                                                                                                                                 |
-| 9   | [Display and Visibility](#display-and-visibility)           | `display`, `visibility`, `overflow`                                                                                                                                                                                                                                                                                                                                                                                                |
-| 10  | [Typography (Text and Fonts)](#typography-text-and-fonts)   | `font-family`, `font-size`, `font-weight`, `font-style`, `line-height`, `letter-spacing`, `word-spacing`, `text-align`, `text-transform`, `text-decoration`, `text-shadow`, `font-variant`, `font-stretch`, `font-kerning`, `text-overflow`, `white-space`, `overflow-wrap`, `word-break`, `writing-mode`, `direction`, `vertical-align`, `text-indent`, `text-justify`, `tab-size`, `text-orientation`, `hyphens`, `Google Fonts` |
-| 11  | [CSS Backgrounds](#css-backgrounds)                         | `background-color`, `background-image`, `background-repeat`, `background-position`, `background-size`, `background-attachment`, `background-clip`, `background-origin`, `background-blend-mode`                                                                                                                                                                                                                                    |
-| 12  | [CSS Positioning](#css-positioning)                         | `static`, `relative`, `absolute`, `fixed`, `sticky`, `z-index`                                                                                                                                                                                                                                                                                                                                                                     |
-| 13  | [Float and Clear](#float-and-clear)                         | `float`, `clear`, Clearfix technique, Problems with float                                                                                                                                                                                                                                                                                                                                                                          |
-| 14  | [CSS Flexbox](#css-flexbox)                                 | Flexbox Basics, Flex Container, `flex-direction`, `flex-wrap`, `justify-content`, `align-items`, `align-content`, `flex-grow`, `flex-shrink`, `flex-basis`, `order`, Flexbox Cheat Sheet                                                                                                                                                                                                                                           |
-| 15  | [CSS Grid](#css-grid)                                       | Grid Basics, `grid-template-columns`, `grid-template-rows`, `gap`, `grid-column`, `grid-row`, `grid-area`, Named Grid Areas, auto-fit vs auto-fill, `minmax()`                                                                                                                                                                                                                                                                     |
-| 16  | [Responsive Design](#responsive-design)                     | Viewport, Media Queries, Mobile First Approach, Breakpoints, Fluid Layout, Responsive Images                                                                                                                                                                                                                                                                                                                                       |
-|     | [Transitions and Transforms](#transitions-and-transforms)   | `transition-property`, `transition-duration`, `transition-timing-function`, `transition-delay`, `translate`, `scale`, `rotate`, `skew`                                                                                                                                                                                                                                                                                             |
-| 17  | [Animations](#animations)                                   | `@keyframes`, `animation-name`, `animation-duration`, `animation-delay`, `animation-iteration-count`, `animation-direction`, `animation-fill-mode`, `animation-timing-function`                                                                                                                                                                                                                                                    |
-| 18  | [CSS Functions](#css-functions)                             | `calc()`, `var()`, `clamp()`, `min()`, `max()`                                                                                                                                                                                                                                                                                                                                                                                     |
-| 19  | [CSS Variables](#css-variables)                             | Defining Variables, Using Variables, Global vs Local Scope                                                                                                                                                                                                                                                                                                                                                                         |
-| 20  | [Advanced Topics](#advanced-topics)                         | `object-fit`, `aspect-ratio`, `filter`, `backdrop-filter`, `mix-blend-mode`, `writing-mode`, `scroll-behavior`                                                                                                                                                                                                                                                                                                                     |
-| 21  | [Best Practices](#best-practices)                           | Avoid Inline CSS, Reusable Classes, Performance Tips, Browser Compatibility                                                                                                                                                                                                                                                                                                                                                        |
-| 22  | [Debugging and Tools](#debugging-and-tools)                 | Chrome DevTools, Inspect Element, Common CSS Errors, How to Fix Layout Issues,                                                                                                                                                                                                                                                                                                                                                     |
-| 23  | [CSS CHEATSHEET](#css-cheatsheet)                           | Layout & Display, Box Model, Background, Positioning, Text & Fonts, Cursor & Interaction, Flexbox, Grid, Transitions & Animation, Effects, Responsive Design, Lists & Tables, Links, Advanced / Misc                                                                                                                                                                                                                               |
-| 24  | [APPENDIX](#appendix)                                       | Browser Support Table, Useful Resources, Contribution Guide                                                                                                                                                                                                                                                                                                                                                                        |
+| #   | Topic                                                       | Subtopics                                          |
+| --- | ----------------------------------------------------------- | -------------------------------------------------- |
+| 1   | [Introduction](#introduction)                               | CSS Basics, History, Versions, Syntax              |
+| 2   | [Ways to Use CSS](#ways-to-use-css)                         | Inline, Internal, External, Priority               |
+| 3   | [X and Y Axis Coordinator](#x-and-y-axis-coordinator)       | Axes, Coordinates, Quadrants                       |
+| 4   | [CSS Selectors](#css-selectors)                             | Basic, Combinator, Attribute, Pseudo               |
+| 5   | [CSS Specificity and Cascade](#css-specificity-and-cascade) | Cascade, Specificity, Inheritance                  |
+| 6   | [CSS Values and Units](#css-values-and-units)               | Units, calc(), Relative vs Absolute                |
+| 7   | [Colors in CSS](#colors-in-css)                             | HEX, RGB, HSL, Opacity                             |
+| 8   | [CSS Box Model](#css-box-model)                             | Content, Padding, Border, Margin                   |
+| 9   | [Display and Visibility](#display-and-visibility)           | Display, Visibility, Overflow                      |
+| 10  | [Typography (Text and Fonts)](#typography-text-and-fonts)   | Fonts, Text, Spacing, Alignment                    |
+| 11  | [Cursor & Interaction](#cursor--interaction)                | Cursor Types, Pointer Events, User Select, Resize  |
+| 12  | [CSS Backgrounds](#css-backgrounds)                         | Color, Image, Position, Size                       |
+| 13  | [CSS Positioning](#css-positioning)                         | Static, Relative, Absolute, Fixed                  |
+| 14  | [Float and Clear](#float-and-clear)                         | Float, Clear, Clearfix                             |
+| 15  | [CSS Flexbox](#css-flexbox)                                 | Container, Items, Alignment                        |
+| 16  | [CSS Grid](#css-grid)                                       | Grid Basics, Rows, Columns, Gap                    |
+| 17  | [Responsive Design](#responsive-design)                     | Viewport, Media Queries, Breakpoints               |
+| 18  | [Transitions and Transforms](#transitions-and-transforms)   | Transition, Translate, Scale, Rotate, Skew         |
+| 19  | [CSS Lists & Tables](#css-lists--tables)                    | List Style, Table Layout, Border Collapse, Spacing |
+| 20  | [CSS Links](#css-links)                                     | Link States, Hover, Active, Visited, Focus         |
+| 21  | [Animations](#animations)                                   | Keyframes, Duration, Timing                        |
+| 22  | [CSS Effects](#css-effects)                                 | Box Shadow, Text Shadow, Opacity, Filter           |
+| 23  | [CSS Functions](#css-functions)                             | `calc()`, `var()`, `clamp()`, `min()`, `max()`     |
+| 24  | [CSS Variables](#css-variables)                             | Define, Use, Scope                                 |
+| 25  | [Advanced Topics](#advanced-topics)                         | Filter, Ratio, Blend, Scroll                       |
+| 26  | [Best Practices](#best-practices)                           | Clean Code, Reuse, Performance                     |
+| 27  | [Debugging and Tools](#debugging-and-tools)                 | DevTools, Errors, Fixing                           |
+| 28  | [CSS CHEATSHEET](#css-cheatsheet)                           | Quick Reference                                    |
+| 29  | [APPENDIX](#appendix)                                       | Support, Resources                                 |
 
 # Introduction
 
@@ -405,6 +409,22 @@ An X–Y Axis Coordinate System (also called the Cartesian Coordinate System) is
 - **Y-axis** → Vertical line
 - The point where they meet is called the **Origin (0,0).**
 
+**Vertical** line as Y-axis
+
+```plaintext
+│
+│
+│
+│
+│
+```
+
+**Horizontal** line as X-axis
+
+```plaintext
+────────────────────────
+```
+
 ## 🗁 Coordinate Format
 
 A point is written as:
@@ -418,7 +438,7 @@ A point is written as:
 
 (3, 2) → Move **3 units right** on X, then **2 units up** on Y.
 
-![X and Y Axis Coordinator](./assets/images/x-y-coordinates2.png "X and Y Axis Coordinator")
+![X and Y Axis Coordinator](x-y-coordinates2.png "X and Y Axis Coordinator")
 
 ## 🗁 Quadrants
 
@@ -454,7 +474,7 @@ X- ←--------0--------→ X+
 - (-3, -4) → Quadrant III
 - (6, -1) → Quadrant IV
 
-![X and Y Axis Coordinator](./assets/images/x-y-coordinates3.png "X and Y Axis Coordinator")
+![X and Y Axis Coordinator](x-y-coordinates3.png "X and Y Axis Coordinator")
 
 ## 🗁 Important Formula
 
@@ -936,12 +956,12 @@ p {
 }
 
 .text {
-  /* specificity = 10*/
+  /* specificity = 10 */
   color: green;
 }
 
 # title {
-  /*specificity = 100*/
+  /* specificity = 100 */
   color: red;
 }
 ```
@@ -958,12 +978,12 @@ Example 2:
 
 ```css
 div p {
-  /*1 + 1 = 2 */
+  /* 1 + 1 = 2 */
   color: blue;
 }
 
 .container p {
-  /* 10 + 1 = 11*/
+  /* 10 + 1 = 11 */
   color: red;
 }
 ```
@@ -1007,9 +1027,9 @@ What will be the color?
 
 Some CSS properties are passed from **parent → child**.
 
-- 〔✓〕 Inherited properties: `color`, `font-family`, `font-size`, `line-height`
+- 〔✓〕 Inherited properties: `color`, `font-family`, `font-size`, `font-weight`, `line-height`, `text-align`, `visibility`, `cursor`
 
-- 〔✗〕 Not inherited: `margin`, `padding`, `border`, `background`
+- 〔✗〕 Not inherited: `margin`, `padding`, `border`, `width`, `height`, `background`, `display`, `position`
 
 🕮 Example:
 
@@ -1208,7 +1228,7 @@ Also used for print.
 Relative units depend on:
 
 ```plaintext
-➜ parent size ➜ root size ➜ viewport size
+parent size ➜ root size ➜ viewport size
 ```
 
 These are best for responsive design.
@@ -1837,23 +1857,38 @@ Result: Creates repeating circular stripes.
 
 # CSS Box Model
 
+```css
+/* CHEAT SHEET */
+
+width: 100%;
+height: auto;
+min-width: 200px;
+max-width: 1200px;
+
+margin: 10px;
+padding: 20px;
+
+border: 1px solid #000;
+border-radius: 10px;
+```
+
 Every HTML element is treated as a box in CSS.
 
 The box model consists of:
 
 ```plaintext
-+-----------------------+
-|         Margin        |
-|  +-----------------+  |
-|  |      Border     |  |
-|  |  +-----------+  |  |
-|  |  |  Padding  |  |  |
-|  |  | +-------+ |  |  |
-|  |  | |Content| |  |  |
-|  |  | +-------+ |  |  |
-|  |  +-----------+  |  |
-|  +-----------------+  |
-+-----------------------+
++------------------------------+
+|           Margin             |
+|  +------------------------+  |
+|  |        Border          |  |
+|  |  +------------------+  |  |
+|  |  |     Padding      |  |  |
+|  |  |  +------------+  |  |  |
+|  |  |  |  Content   |  |  |  |
+|  |  |  +------------+  |  |  |
+|  |  +------------------+  |  |
+|  +------------------------+  |
++------------------------------+
 ```
 
 Order (inside → outside):
@@ -2255,6 +2290,15 @@ Shorthand:
 
 ## 🗁 `box-sizing`
 
+---
+
+```css
+/* CHEAT SHEET */
+
+box-sizing: border-box;
+box-sizing: content-box;
+```
+
 Controls how width & height are calculated.
 
 ### ၊၊||၊ content-box (default)
@@ -2321,9 +2365,9 @@ Question:
 
 **❏❏❏ Best Practices**
 
-- 〔✓〕 Always use box-sizing: border-box
-- 〔✓〕 Use padding for inner spacing
-- 〔✓〕 Use margin for outer spacing
+- 〔✓〕 Always use `box-sizing: border-box`
+- 〔✓〕 Use `padding` for inner spacing
+- 〔✓〕 Use `margin` for outer spacing
 - 〔✓〕 Visualize boxes with borders while learning
 
 🕮 Example:
@@ -2417,6 +2461,14 @@ box-shadow:
 <!-- END "Jump to Top" -->
 
 # Display and Visibility
+
+```css
+/* CHEAT SHEET */
+
+display: block | inline | inline-block | flex | grid | none;
+visibility: visible | hidden;
+overflow: hidden | auto | scroll;
+```
 
 These properties control how elements appear and behave in the layout.
 
@@ -2802,6 +2854,23 @@ Horizontal scroll appears, vertical overflow hidden.
 <!-- END "Jump to Top" -->
 
 # Typography (Text and Fonts)
+
+```css
+/* CHEAT SHEET */
+
+color: #333;
+font-family: Arial, sans-serif;
+font-size: 16px;
+font-weight: 400 | bold;
+font-style: normal | italic;
+
+text-align: left | center | right;
+text-decoration: none | underline;
+text-transform: uppercase | lowercase;
+
+line-height: 1.5;
+letter-spacing: 1px;
+```
 
 Typography refers to the **style, appearance, and arrangement of text**. CSS provides multiple properties to control fonts, spacing, alignment, and decoration.
 
@@ -3246,7 +3315,7 @@ Syntax:
 
 ```plaintext
 selector{
-    font-kerning:value;
+    font-kerning: value;
 }
 ```
 
@@ -3712,7 +3781,337 @@ Popular fonts from [Google Fonts](https://fonts.google.com/):
 </p>
 <!-- END "Jump to Top" -->
 
+# Cursor & Interaction
+
+```css
+/* CHEAT SHEET */
+
+cursor: pointer | default | not-allowed;
+
+pointer-events: none;
+user-select: none;
+```
+
+The **Cursor & Interaction** properties in CSS control how users interact with elements and how the mouse cursor behaves when hovering over them. These properties improve usability, accessibility, and user experience.
+
+```css
+cursor: pointer | default | not-allowed;
+
+pointer-events: none;
+user-select: none;
+```
+
+## 🗁 `cursor`
+
+The `cursor` property specifies the type of mouse cursor displayed when the pointer is over an element.
+
+Syntax:
+
+```plaintext
+selector {
+    cursor: value;
+}
+```
+
+Example:
+
+```html title="index.html"
+<button class="btn">Click Me</button>
+```
+
+```css
+.btn {
+  cursor: pointer;
+}
+```
+
+When the user hovers over the button, the cursor changes from the default arrow to a hand pointer.
+
+Common Cursor Values:
+
+| Value         | Description                               |
+| ------------- | ----------------------------------------- |
+| `default`     | Standard arrow cursor                     |
+| `pointer`     | Hand cursor (typically for links/buttons) |
+| `text`        | Text-selection cursor                     |
+| `wait`        | Loading/wait cursor                       |
+| `not-allowed` | Indicates an action is not permitted      |
+| `move`        | Indicates movable content                 |
+| `grab`        | Indicates draggable content               |
+| `grabbing`    | Active dragging state                     |
+| `crosshair`   | Cross-shaped cursor                       |
+| `help`        | Help cursor                               |
+
+Example:
+
+```css
+.link {
+  cursor: pointer;
+}
+
+.input {
+  cursor: text;
+}
+
+.disabled {
+  cursor: not-allowed;
+}
+
+.loading {
+  cursor: wait;
+}
+```
+
+### ၊၊||၊ Custom Cursor
+
+You can use your own image as a cursor.
+
+```css
+.custom {
+  cursor: url("cursor.png"), auto;
+}
+```
+
+The browser will use `cursor.png`; if unavailable, it falls back to `auto`.
+
+## 🗁 `pointer-events`
+
+Controls whether an element can receive mouse events.
+
+Values:
+
+| Value  | Description                |
+| ------ | -------------------------- |
+| `auto` | Normal behavior            |
+| `none` | Ignores mouse interactions |
+
+Example:
+
+```html
+<button class="disabled-btn">Disabled Button</button>
+```
+
+```css
+.disabled-btn {
+  pointer-events: none;
+  opacity: 0.5;
+}
+```
+
+The button appears visible but cannot be clicked.
+
+Click-through Overlay Example
+
+```html
+<div class="overlay"></div>
+<button>Click Me</button>
+```
+
+```css
+.overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+```
+
+The overlay won't block clicks on elements beneath it.
+
+## 🗁 `user-select`
+
+Determines whether users can select text.
+
+Values:
+
+| Value  | Description                      |
+| ------ | -------------------------------- |
+| `auto` | Default behavior                 |
+| `none` | Text cannot be selected          |
+| `text` | Text can be selected             |
+| `all`  | Entire content selected on click |
+
+Example:
+
+```css
+.no-select {
+  user-select: none;
+}
+```
+
+```html
+<p class="no-select">This text cannot be selected.</p>
+```
+
+Copy Code Example
+
+```css
+.code {
+  user-select: all;
+}
+```
+
+```html
+<code class="code"> npm install react </code>
+```
+
+Clicking the code block selects all text.
+
+## 🗁 `resize`
+
+Allows users to resize an element.
+
+Values:
+
+| Value        | Description                        |
+| ------------ | ---------------------------------- |
+| `none`       | Not resizable                      |
+| `both`       | Resize horizontally and vertically |
+| `horizontal` | Resize horizontally only           |
+| `vertical`   | Resize vertically only             |
+
+Example
+
+```html
+<textarea class="box"></textarea>
+```
+
+```css
+.box {
+  resize: both;
+  overflow: auto;
+}
+```
+
+Users can drag the corner to resize the textarea.
+
+## 🗁 `touch-action`
+
+Defines how touch interactions behave on touch-enabled devices.
+
+Values:
+
+| Value        | Description                   |
+| ------------ | ----------------------------- |
+| `auto`       | Default touch behavior        |
+| `none`       | Disable browser touch actions |
+| `pan-x`      | Horizontal scrolling only     |
+| `pan-y`      | Vertical scrolling only       |
+| `pinch-zoom` | Allow pinch zooming           |
+|              |                               |
+
+Example:
+
+```css
+.slider {
+  touch-action: pan-x;
+}
+```
+
+Useful for image sliders that should only respond to horizontal swipes.
+
+## 🗁 `caret-color`
+
+Changes the color of the text insertion cursor (caret).
+
+Example:
+
+```html
+<input type="text" class="input" />
+```
+
+```css
+.input {
+  caret-color: red;
+}
+```
+
+The blinking text cursor inside the input becomes red.
+
+## 🗁 `scroll-behavior`
+
+Controls smooth scrolling when navigating within a page.
+
+Example
+
+```css
+html {
+  scroll-behavior: smooth;
+}
+```
+
+```html
+<a href="#section2">Go to Section 2</a>
+```
+
+Clicking the link smoothly scrolls to the target section.
+
+**Practical Example:**
+
+```html
+<button class="download-btn">Download</button>
+
+<textarea class="editor"></textarea>
+
+<p class="copy-text">Click to copy this text</p>
+```
+
+```css
+.download-btn {
+  cursor: pointer;
+}
+
+.editor {
+  resize: vertical;
+  caret-color: blue;
+}
+
+.copy-text {
+  user-select: all;
+  cursor: copy;
+}
+```
+
+Result:
+
+- Button shows a hand cursor.
+- Textarea can be resized vertically.
+- Text cursor inside textarea is blue.
+- Paragraph text is selected entirely when clicked.
+- Paragraph shows a copy cursor.
+
+## ☰ Summary
+
+| Property          | Purpose                             |
+| ----------------- | ----------------------------------- |
+| `cursor`          | Changes mouse cursor appearance     |
+| `pointer-events`  | Enables/disables mouse interactions |
+| `user-select`     | Controls text selection             |
+| `resize`          | Makes elements resizable            |
+| `touch-action`    | Controls touch gestures             |
+| `caret-color`     | Changes text cursor color           |
+| `scroll-behavior` | Enables smooth scrolling            |
+
+These properties are essential for creating intuitive, user-friendly, and interactive web interfaces.
+
+<!-- START "Jump to Top"-->
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
+</p>
+<!-- END "Jump to Top" -->
+
 # CSS Backgrounds
+
+```css
+/* CHEAT SHEET */
+
+background: #fff;
+background-color: red;
+background-image: url("img.jpg");
+background-size: cover | contain;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+```
 
 These properties control how **elements look visually** — their background images, colors, borders, shadows, and shapes.
 
@@ -4011,6 +4410,19 @@ background: #000 url(bg.jpg) center / cover no-repeat fixed;
 
 # CSS Positioning
 
+```css
+/* CHEAT SHEET */
+
+position: static | relative | absolute | fixed | sticky;
+
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+
+z-index: 10;
+```
+
 The position property controls how an element is placed in the document and how `top`, `right`, `bottom`, `left`, and `z-index` affect it.
 
 Syntax:
@@ -4071,6 +4483,8 @@ Elements follow the **normal document flow.**
 
 Element remains in **normal flow**, but you can **move it relative to its original position.**
 
+_💡 The element can be shifted around, but it still keeps its place in the normal flow._
+
 Works with (Properties):
 
 - `top`
@@ -4118,9 +4532,11 @@ Used often for fine adjustments.
 
 Element is **removed from normal flow** and positioned relative to the **nearest positioned ancestor.**
 
+_💡 The element leaves the normal flow and can be positioned exactly where you want it._
+
 A **positioned ancestor** is any element with:
 
-```plaintext
+```css
 position: relative
 position: absolute
 position: fixed
@@ -4163,13 +4579,15 @@ Works with (Properties):
 
 Output:
 
-![CSS Position "Absulate"](./assets/images/css-position-relative-vs-absulate.jpg)
+![CSS Position "Absulate"](css-position-relative-vs-absulate.jpg)
 
 **Used heavily in**: Badges, Dropdowns, Tooltips, Overlays
 
 ## 🗁 `position: fixed`
 
 Element is positioned relative to the **viewport (browser window).**
+
+_💡 The element stays in one place on the screen and does not move when you scroll._
 
 It **stays fixed even when scrolling.**
 
@@ -4209,6 +4627,8 @@ Navbar **always stays at top of screen.**
 Hybrid of **relative and fixed.**
 
 Element behaves like **relative** until it reaches a scroll point, then becomes **fixed.**
+
+_💡 At first, it scrolls normally. When it reaches a set position, it stays fixed on the screen._
 
 **Requirement**
 
@@ -4294,6 +4714,13 @@ z-index: number;
 <!-- END "Jump to Top" -->
 
 # Float and Clear
+
+```css
+/* CHEAT SHEET */
+
+float: left | right; /* 🕮 Note: Try to avoid */
+clear: both;
+```
 
 ## 🗁 `float`
 
@@ -4647,6 +5074,29 @@ But even this is now replaced by flexbox.
 
 # CSS Flexbox
 
+```css
+/* CHEAT SHEET */
+
+display: flex;
+
+flex-direction: row | column;
+flex-wrap: wrap;
+
+justify-content: center | space-between | space-around;
+align-items: center | flex-start | flex-end;
+
+align-content: center;
+
+gap: 10px;
+
+/* Item */
+flex: 1;
+flex-grow: 1;
+flex-shrink: 1;
+flex-basis: auto;
+align-self: center;
+```
+
 Flexbox (Flexible Box Layout) is a **CSS layout system designed to arrange items in a row or column and control their alignment, spacing, and size dynamically.** It is extremely useful for responsive layouts.
 
 Think of Flexbox like arranging books on a shelf—you control **direction, spacing, wrapping, and size.**
@@ -4689,6 +5139,10 @@ Box1Box2Box3
 ```
 
 Result: Items appear **in a row automatically.**
+
+![Flex Main axis vs Cross axis](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-MB6DvGQ8ntdUAVoBV3nX_sm2_yIVEu3mLGfHAQ3e7TFZRMzXEHBuTl4&s=10 "The foundational core of Flexbox: Main vs. Cross Axis. Source: CSS-Tricks")
+
+_Figure: The foundational core of Flexbox—understanding the Main Axis and Cross Axis. Source: CSS-Tricks._
 
 ## 🗁 Flex Container
 
@@ -5258,6 +5712,27 @@ Modern layouts often combine:
 
 # CSS Grid
 
+```css
+/* CHEAT SHEET */
+
+display: grid;
+
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: auto;
+
+gap: 20px;
+
+grid-column: span 2;
+grid-row: span 2;
+
+grid-area: header;
+
+grid-template-areas:
+  "header header"
+  "sidebar content"
+  "footer footer";
+```
+
 CSS Grid is one of the most powerful layout systems in CSS. It allows you to create **2-dimensional layouts (rows + columns)** easily. Think of it like building a table structure for your webpage — but far more flexible.
 
 Let's break each topic down with **clear explanations and practical examples.**
@@ -5662,7 +6137,7 @@ You control:
 - gaps
 - item placement
 
-![CSS Grid](./assets/images/css-grid.png)
+![CSS Grid](css-grid.png)
 
 Example: (Most used Grid pattern in modern websites)
 
@@ -5684,6 +6159,16 @@ Used in:
 <!-- END "Jump to Top" -->
 
 # Responsive Design
+
+```css
+/* CHEAT SHEET */
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+```
 
 Responsive Design means building websites so they **adapt automatically to different screen sizes** (mobile, tablet, laptop, desktop). Instead of creating separate websites, one layout responds to the device.
 
@@ -6017,7 +6502,1118 @@ This improves performance and loading speed.
   </p>
   <!-- END "Jump to Top" -->
 
+# CSS Lists & Tables
+
+```css
+/* CHEAT SHEET */
+
+list-style: none;
+list-style-type: disc;
+
+border-collapse: collapse;
+table-layout: fixed;
+```
+
+CSS **Lists & Tables** are used to control the appearance, layout, alignment, spacing, and behavior of HTML lists (`<ul>`, `<ol>`, `<dl>`) and tables (`<table>`).
+
+## 🗁 CSS Lists
+
+HTML provides three types of lists:
+
+1. Unordered Lists (`<ul>`)
+2. Ordered Lists (`<ol>`)
+3. Description Lists (`<dl>`
+
+CSS provides several properties to customize their appearance.
+
+### ၊၊||၊ `list-style`
+
+A shorthand property for:
+
+```plaintext
+list-style:
+    list-style-type
+    list-style-position
+    list-style-image;
+```
+
+Syntax:
+
+```plaintext
+ul {
+    list-style: square inside;
+}
+```
+
+### ၊၊||၊ `list-style-type`
+
+Controls the marker (bullet/number) style.
+
+#### 🗺️ Unordered List Values:
+
+| Value    | Example   |
+| -------- | --------- |
+| `disc`   | ●         |
+| `circle` | ○         |
+| `square` | ■         |
+| `none`   | No marker |
+
+Example:
+
+```html
+<ul class="skills">
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ul>
+```
+
+```css
+.skills {
+  list-style-type: square;
+}
+```
+
+Result:
+
+```text
+■ HTML
+■ CSS
+■ JavaScript
+```
+
+#### 🗺️ Ordered List Values
+
+| Value                  | Example  |
+| ---------------------- | -------- |
+| `decimal`              | 1,2,3    |
+| `decimal-leading-zero` | 01,02    |
+| `lower-alpha`          | a,b,c    |
+| `upper-alpha`          | A,B,C    |
+| `lower-roman`          | i,ii,iii |
+| `upper-roman`          | I,II,III |
+
+Example:
+
+```css
+.steps {
+  list-style-type: upper-roman;
+}
+```
+
+```html
+<ol class="steps">
+  <li>Install</li>
+  <li>Configure</li>
+  <li>Deploy</li>
+</ol>
+```
+
+Result:
+
+```text
+I. Install
+II. Configure
+III. Deploy
+```
+
+### ၊၊||၊ `list-style-position`
+
+Controls whether the marker appears inside or outside the content box.
+
+Values:
+
+| Value     | Description                      |
+| --------- | -------------------------------- |
+| `outside` | Default                          |
+| `inside`  | Marker becomes part of text flow |
+
+#### 🗺️ Outside (Default)
+
+```css
+ul {
+  list-style-position: outside;
+}
+```
+
+```text
+• Item One
+  Item continues...
+```
+
+#### 🗺️ Inside
+
+```css
+ul {
+  list-style-position: inside;
+}
+```
+
+```text
+• Item One
+Item continues...
+```
+
+### ၊၊||၊ `list-style-image`
+
+Uses an image as the marker.
+
+Example:
+
+```css
+ul {
+  list-style-image: url("star.png");
+}
+```
+
+Each list item displays a star image instead of a bullet.
+
+### ၊၊||၊ `list-style: none`
+
+Removes bullets completely.
+
+Example:
+
+```css
+nav ul {
+  list-style: none;
+}
+```
+
+Used frequently for navigation menus.
+
+```html
+<ul class="menu">
+  <li>Home</li>
+  <li>About</li>
+  <li>Contact</li>
+</ul>
+```
+
+```css
+.menu {
+  list-style: none;
+}
+```
+
+### ၊၊||၊ Horizontal Navigation Menu
+
+```html
+<ul class="navbar">
+  <li>Home</li>
+  <li>Services</li>
+  <li>Blog</li>
+  <li>Contact</li>
+</ul>
+```
+
+```css
+.navbar {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline-block;
+  margin-right: 20px;
+}
+```
+
+Result:
+
+```text
+Home  Services  Blog  Contact
+```
+
+### ၊၊||၊ Custom Bullet Using Pseudo-elements
+
+Modern websites often replace bullets with icons.
+
+```html
+<ul class="custom-list">
+  <li>Responsive Design</li>
+  <li>SEO Friendly</li>
+  <li>Fast Loading</li>
+</ul>
+```
+
+```css
+.custom-list {
+  list-style: none;
+}
+
+.custom-list li::before {
+  content: "✓";
+  color: green;
+  margin-right: 10px;
+}
+```
+
+Result:
+
+```text
+✓ Responsive Design
+✓ SEO Friendly
+✓ Fast Loading
+```
+
+### ☰ Summary of List Properties
+
+| Property              | Purpose             |
+| --------------------- | ------------------- |
+| `list-style`          | Shorthand           |
+| `list-style-type`     | Bullet/number style |
+| `list-style-position` | Marker placement    |
+| `list-style-image`    | Image markers       |
+
+## 🗁 CSS Tables
+
+HTML tables display tabular data.
+
+```html
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+  </tr>
+
+  <tr>
+    <td>John</td>
+    <td>25</td>
+  </tr>
+</table>
+```
+
+CSS controls layout, borders, spacing, alignment, and responsiveness.
+
+### ၊၊||၊ `border-collapse`
+
+Determines whether adjacent cell borders are merged.
+
+Values
+
+| Value      | Description   |
+| ---------- | ------------- |
+| `separate` | Default       |
+| `collapse` | Merge borders |
+
+#### 🗺️ Separate
+
+```css
+table {
+  border-collapse: separate;
+}
+```
+
+Each cell keeps its own border.
+
+#### 🗺️ Collapse
+
+```css
+table {
+  border-collapse: collapse;
+}
+```
+
+Produces cleaner tables.
+
+```css
+table,
+th,
+td {
+  border: 1px solid black;
+}
+```
+
+### ၊၊||၊ `border-spacing`
+
+Sets spacing between cells.
+
+Works only with:
+
+```css
+border-collapse: separate;
+```
+
+Example:
+
+```css
+table {
+  border-spacing: 10px;
+}
+```
+
+Creates a 10px gap between cells.
+
+### ၊၊||၊ `caption-side`
+
+Controls caption placement.
+
+Example:
+
+```html
+<table>
+  <caption>
+    Employee Data
+  </caption>
+</table>
+```
+
+```css
+caption {
+  caption-side: bottom;
+}
+```
+
+Caption appears below the table.
+
+### ၊၊||၊ `table-layout`
+
+Determines how column widths are calculated.
+
+Values:
+
+| Value   | Description                    |
+| ------- | ------------------------------ |
+| `auto`  | Content determines width       |
+| `fixed` | Width determined by table size |
+
+#### 🗺️ Fixed Layout
+
+```css
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+```
+
+Provides better performance for large tables.
+
+### ၊၊||၊ Width & Height
+
+```css
+table {
+  width: 100%;
+}
+
+th,
+td {
+  height: 50px;
+}
+```
+
+### ၊၊||၊ Text Alignment
+
+#### 🗺️ Horizontal Alignment
+
+```css
+th,
+td {
+  text-align: center;
+}
+```
+
+Values:
+
+- `left`
+- `right`
+- `center`
+- `justify`
+
+#### 🗺️ Vertical Alignment
+
+```css
+td {
+  vertical-align: middle;
+}
+```
+
+Values:
+
+- `top`
+- `middle`
+- `bottom`
+
+#### 🗺️ Padding
+
+Adds spacing inside cells.
+
+```css
+th,
+td {
+  padding: 12px;
+}
+```
+
+### ၊၊||၊ Hover Effects
+
+```css
+tr:hover {
+  background-color: #f5f5f5;
+}
+```
+
+Highlights rows when hovering.
+
+### ၊၊||၊ Zebra Stripes
+
+Improves readability.
+
+```css
+tr:nth-child(even) {
+  background: #f2f2f2;
+}
+```
+
+Result:
+
+```text
+Row 1 White
+Row 2 Gray
+Row 3 White
+Row 4 Gray
+```
+
+#### 🕮 Example: Complete Professional Table Example
+
+HTML
+
+```html
+<table class="employees">
+  <caption>
+    Employee Information
+  </caption>
+
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Department</th>
+    <th>Salary</th>
+  </tr>
+
+  <tr>
+    <td>1</td>
+    <td>John</td>
+    <td>IT</td>
+    <td>$5000</td>
+  </tr>
+
+  <tr>
+    <td>2</td>
+    <td>Sarah</td>
+    <td>HR</td>
+    <td>$4500</td>
+  </tr>
+
+  <tr>
+    <td>3</td>
+    <td>Mike</td>
+    <td>Finance</td>
+    <td>$6000</td>
+  </tr>
+</table>
+```
+
+CSS
+
+```css
+.employees {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employees caption {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.employees th,
+.employees td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+.employees th {
+  background: #007bff;
+  color: white;
+}
+
+.employees tr:nth-child(even) {
+  background: #f8f9fa;
+}
+
+.employees tr:hover {
+  background: #e9ecef;
+}
+```
+
+#### 🕮 Example: Responsive Table Example
+
+```html
+<div class="table-wrapper">
+  <table>
+    ...
+  </table>
+</div>
+```
+
+```css
+.table-wrapper {
+  overflow-x: auto;
+}
+```
+
+If the table becomes wider than the screen, horizontal scrolling appears instead of breaking the layout.
+
+### ☰ Summary of Table Properties
+
+| Property          | Purpose                  |
+| ----------------- | ------------------------ |
+| `border-collapse` | Merge borders            |
+| `border-spacing`  | Space between cells      |
+| `caption-side`    | Caption position         |
+| `table-layout`    | Width calculation method |
+| `width`           | Table width              |
+| `height`          | Row/cell height          |
+| `padding`         | Cell spacing             |
+| `text-align`      | Horizontal alignment     |
+| `vertical-align`  | Vertical alignment       |
+| `:hover`          | Interactive row effects  |
+| `nth-child()`     | Zebra striping           |
+
+## ☰ Best Practices
+
+- Use `list-style: none` for navigation menus.
+- Prefer pseudo-elements (`::before`) for custom bullets and icons.
+- Use `border-collapse: collapse` for cleaner tables.
+- Add `padding` to improve readability.
+- Use zebra striping (`nth-child(even)`) for large datasets.
+- Wrap wide tables in a container with `overflow-x: auto` for responsive layouts.
+- Use semantic table elements (`<caption>`, `<thead>`, `<tbody>`, `<tfoot>`) for accessibility and maintainability.
+
+  <!-- START "Jump to Top"-->
+  <p align="right">
+    <a href="#table-of-contents">Jump to Top ▲</a>
+  </p>
+  <!-- END "Jump to Top" -->
+
+# CSS Links
+
+```css
+/* CHEAT SHEET */
+
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+a:active {
+}
+```
+
+The CSS **Links** topic covers how to style hyperlinks (`<a>` elements), control their states, appearance, interaction, and behavior.
+
+Links are one of the most commonly styled elements in web development because they provide navigation and user interaction.
+
+Basic HTML Link
+
+```html
+<a href="https://example.com"> Visit Website </a>
+```
+
+Without CSS, browsers apply default styles:
+
+- Blue for unvisited links
+- Purple for visited links
+- Underline
+- Different hover/active behaviors
+
+**Link States**
+
+CSS provides special pseudo-classes for styling links based on their state.
+
+| Pseudo-class | Description         |
+| ------------ | ------------------- |
+| `:link`      | Unvisited link      |
+| `:visited`   | Visited link        |
+| `:hover`     | Mouse over link     |
+| `:active`    | While being clicked |
+| `:focus`     | Keyboard focus      |
+
+## 🗁 `:link`
+
+Styles links that have not been visited.
+
+Example:
+
+```css
+a:link {
+  color: blue;
+}
+```
+
+```html
+<a href="#">Home</a>
+```
+
+Result: Unvisited links appear blue.
+
+## 🗁 `:visited`
+
+Styles links already visited by the user.
+
+Example:
+
+```css
+a:visited {
+  color: purple;
+}
+```
+
+After visiting the page, the link becomes purple.
+
+## 🗁 `:hover`
+
+Styles links when the mouse pointer hovers over them.
+
+Example:
+
+```css
+a:hover {
+  color: red;
+}
+```
+
+Result:
+
+- Normal → Blue
+- Hover → Red
+
+## 🗁 `:active`
+
+Styles links while they are being clicked.
+
+Example:
+
+```css
+a:active {
+  color: green;
+}
+```
+
+The link becomes green during the click.
+
+## 🗁 `:focus`
+
+Styles links when focused via keyboard navigation (Tab key).
+
+Example:
+
+```css
+a:focus {
+  outline: 2px solid orange;
+}
+```
+
+Useful for accessibility.
+
+## 🗁 Recommended Order (LVHFA)
+
+When using multiple link states together:
+
+```css
+a:link {
+}
+a:visited {
+}
+a:hover {
+}
+a:focus {
+}
+a:active {
+}
+```
+
+This order prevents style conflicts.
+
+### ၊၊||၊ Styling Link Colors
+
+Example:
+
+```css
+a {
+  color: royalblue;
+}
+```
+
+```html
+<a href="#">Learn CSS</a>
+```
+
+### ၊၊||၊ Removing Underlines
+
+Links are underlined by default.
+
+Example:
+
+```css
+a {
+  text-decoration: none;
+}
+```
+
+Result:
+
+```text
+Learn CSS
+```
+
+No underline appears.
+
+### ၊၊||၊ Adding Underlines Back on Hover
+
+A common modern pattern:
+
+```css
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+```
+
+### ၊၊||၊ Changing Font Properties
+
+Example:
+
+```css
+a {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+```
+
+### ၊၊||၊ Link Backgrounds
+
+Links can look like buttons.
+
+Example:
+
+```css
+a {
+  background: royalblue;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+```
+
+### ၊၊||၊ Rounded Button Links
+
+```css
+a {
+  background: royalblue;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+```
+
+### ၊၊||၊ Hover Effects
+
+#### 🗺️ Color Change
+
+```css
+a:hover {
+  color: tomato;
+}
+```
+
+#### 🗺️ Background Change
+
+```css
+a:hover {
+  background: darkblue;
+}
+```
+
+#### 🗺️ Scale Effect
+
+```css
+a {
+  display: inline-block;
+  transition: transform 0.3s;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
+```
+
+#### 🗺️ Underline Animation
+
+```css
+a {
+  position: relative;
+  text-decoration: none;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+
+  width: 0;
+  height: 2px;
+
+  background: currentColor;
+  transition: width 0.3s;
+}
+
+a:hover::after {
+  width: 100%;
+}
+```
+
+Creates a smooth underline animation.
+
+#### 🗺️ Transition Effects
+
+Links often use transitions for smoother interaction.
+
+```css
+a {
+  color: royalblue;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: tomato;
+}
+```
+
+#### 🗺️ Navigation Menu Links
+
+HTML
+
+```html
+<nav>
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Contact</a>
+</nav>
+```
+
+CSS
+
+```css
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: royalblue;
+}
+```
+
+### ၊၊||၊ Active Navigation Link
+
+Commonly used to highlight the current page.
+
+HTML
+
+```html
+<a href="#" class="active"> Home </a>
+```
+
+CSS
+
+```css
+.active {
+  color: white;
+  background: royalblue;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+```
+
+### ၊၊||၊ Button-Like Link
+
+```html
+<a href="#" class="btn"> Download </a>
+```
+
+```css
+.btn {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #218838;
+}
+```
+
+### ၊၊||၊ External Link Icon
+
+Using a pseudo-element:
+
+```css
+.external::after {
+  content: " ↗";
+}
+```
+
+```html
+<a href="#" class="external"> Documentation </a>
+```
+
+Result:
+
+```text
+Documentation ↗
+```
+
+### ၊၊||၊ Disable a Link Visually
+
+```css
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+```
+
+```html
+<a href="#" class="disabled"> Unavailable </a>
+```
+
+The link appears disabled and cannot be clicked.
+
+### 🕮 Complete Example
+
+**Example 1: Professional Navigation**
+
+HTML
+
+```html
+<nav class="navbar">
+  <a href="#">Home</a>
+  <a href="#">Products</a>
+  <a href="#">Pricing</a>
+  <a href="#">Contact</a>
+</nav>
+```
+
+CSS
+
+```css
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: royalblue;
+  color: white;
+}
+```
+
+**Example 2: Complete Example with All States**
+
+HTML
+
+```html
+<a href="#"> CSS Tutorial </a>
+```
+
+CSS
+
+```css
+a:link {
+  color: blue;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 2px solid orange;
+}
+
+a:active {
+  color: green;
+}
+```
+
+## ☰ Summary Table
+
+| Selector          | Purpose                 |
+| ----------------- | ----------------------- |
+| `:link`           | Unvisited link          |
+| `:visited`        | Visited link            |
+| `:hover`          | Mouse hover             |
+| `:focus`          | Keyboard focus          |
+| `:active`         | Clicked state           |
+| `text-decoration` | Underline control       |
+| `color`           | Text color              |
+| `background`      | Background styling      |
+| `transition`      | Smooth effects          |
+| `transform`       | Hover animations        |
+| `pointer-events`  | Enable/disable clicking |
+
+## ☰ Best Practices
+
+- Always provide a visible `:hover` and `:focus` state.
+- Use `text-decoration: none` carefully; ensure links remain identifiable.
+- Add `transition` for smoother interactions.
+- Style `:focus` for keyboard accessibility.
+- Use button-like links only for navigation; use `<button>` for actions.
+- Keep navigation links consistent throughout the site.
+
+<!-- START "Jump to Top"-->
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
+</p>
+<!-- END "Jump to Top" -->
+
 # Transitions and Transforms
+
+```css
+/* CHEAT SHEET */
+
+transition: all 0.3s ease;
+
+transform: translateX(10px);
+transform: scale(1.1);
+transform: rotate(45deg);
+```
 
 Transitions and transforms are two powerful CSS features used to create smooth animations and visual effects in web interfaces. Since you work with frontend development, mastering these gives your UI a much more polished feel. Let's break them down clearly with examples.
 
@@ -6721,6 +8317,380 @@ You can write:
 </p>
 <!-- END "Jump to Top" -->
 
+# CSS Effects
+
+```css
+/* CHEAT SHEET */
+
+opacity: 0.5;
+
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+text-shadow: 1px 1px 2px #000;
+
+filter: blur(5px);
+```
+
+CSS Effects are visual enhancements that modify the appearance of elements without changing their actual content. They help create depth, emphasis, animation, and modern user interfaces.
+
+The most important CSS Effects include:
+
+- `opacity`
+- `box-shadow`
+- `text-shadow`
+- `filter`
+- `backdrop-filter`
+- `mix-blend-mode`
+- `background-blend-mode`
+- `clip-path`
+- `mask`
+
+1. `transform`
+2. `transition`
+
+## 🗁 Opacity
+
+The `opacity` property controls the transparency of an element.
+
+Syntax:
+
+```css
+selector {
+  opacity: value;
+}
+```
+
+Values:
+
+| Value | Description            |
+| ----- | ---------------------- |
+| `0`   | Completely transparent |
+| `0.5` | 50% visible            |
+| `1`   | Fully visible          |
+
+Example:
+
+```html
+<div class="box"></div>
+```
+
+```css
+.box {
+  width: 200px;
+  height: 100px;
+  background: royalblue;
+  opacity: 0.5;
+}
+```
+
+Result: The box becomes 50% transparent.
+
+## 🗁 Box Shadow
+
+Adds shadow around an element.
+
+Syntax:
+
+```plaintext
+box-shadow: horizontal vertical blur spread color;
+```
+
+Example 1:
+
+```css
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+```
+
+**⧉⧉⧉ `x-offset = 0`**
+
+```css
+0
+```
+
+Left/Right shift
+
+- Positive → moves right
+- Negative → moves left
+
+Here, the shadow is not moving horizontally.
+
+**⧉⧉⧉ `y-offset = 4px`**
+
+```css
+4px
+```
+
+Up/Down shift
+
+- Positive → moves down
+- Negative → moves up
+
+Here, the shadow is positioned 4px below the element.
+
+**⧉⧉⧉ `blur = 10px`**
+
+```css
+10px
+```
+
+Determines how blurry the shadow will be.
+
+- Small value = sharp shadow
+- Large value = soft shadow
+
+**⧉⧉⧉ `color = rgba(0,0,0,0.2)`**
+
+Black shadow with 20% opacity.
+
+RGBA format:
+
+```css
+rgba(red, green, blue, alpha)
+```
+
+Example:
+
+```css
+rgba(0,0,0,0.2)
+```
+
+- red = 0
+- green = 0
+- blue = 0
+- alpha = 0.2
+
+This creates a light black shadow.
+
+Example:
+
+```css
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+```
+
+**Effect:** The card appears to be floating slightly above the surface.
+
+#### 🗺️ Multiple Shadows
+
+```css
+.card {
+  box-shadow:
+    0 2px 5px rgba(0, 0, 0, 0.2),
+    0 10px 20px rgba(0, 0, 0, 0.1);
+}
+```
+
+#### 🗺️ Inset Shadow
+
+```css
+.card {
+  box-shadow: inset 0 0 10px gray;
+}
+```
+
+## 🗁 Text Shadow
+
+Adds shadow to text.
+
+### Syntax
+
+```css
+text-shadow: horizontal vertical blur color;
+```
+
+### Example
+
+```html
+<h1 class="title">CSS Effects</h1>
+```
+
+```css
+.title {
+  text-shadow: 2px 2px 5px gray;
+}
+```
+
+### Glow Effect
+
+```css
+.glow {
+  color: white;
+  text-shadow:
+    0 0 5px cyan,
+    0 0 10px cyan,
+    0 0 20px cyan;
+}
+```
+
+## 🗁 Filter
+
+Applies graphical effects to images or elements.
+
+Common Filter Functions
+
+| Function        | Description          |
+| --------------- | -------------------- |
+| `blur()`        | Blur effect          |
+| `brightness()`  | Adjust brightness    |
+| `contrast()`    | Adjust contrast      |
+| `grayscale()`   | Convert to grayscale |
+| `sepia()`       | Vintage effect       |
+| `invert()`      | Invert colors        |
+| `saturate()`    | Increase saturation  |
+| `hue-rotate()`  | Change color hue     |
+| `drop-shadow()` | Shadow effect        |
+
+Example: Blur
+
+```css
+img {
+  filter: blur(3px);
+}
+```
+
+Example: Grayscale
+
+```css
+img {
+  filter: grayscale(100%);
+}
+```
+
+#### 🗺️ Multiple Filters
+
+```css
+img {
+  filter: brightness(120%) contrast(130%) saturate(150%);
+}
+```
+
+## 🗁 Backdrop Filter
+
+Applies effects to the area behind an element.
+
+Commonly used for Glassmorphism UI.
+
+Example 1:
+
+```html
+<div class="glass">Glass Effect</div>
+```
+
+```css
+.glass {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+}
+```
+
+Example 2: Glassmorphism
+
+```css
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+}
+```
+
+## 🗁 Mix Blend Mode
+
+Controls how an element blends with content beneath it.
+
+Example
+
+```css
+.text {
+  mix-blend-mode: multiply;
+}
+```
+
+Common Values
+
+| Value         | Effect              |
+| ------------- | ------------------- |
+| `multiply`    | Darkens             |
+| `screen`      | Lightens            |
+| `overlay`     | Contrast blend      |
+| `difference`  | Inverts differences |
+| `color-dodge` | Brightens           |
+
+## 🗁 Background Blend Mode
+
+Blends multiple background layers.
+
+Example:
+
+```css
+.hero {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image.jpg");
+
+  background-blend-mode: multiply;
+}
+```
+
+This darkens the image using the gradient overlay.
+
+## 🗁 Clip Path
+
+Creates custom shapes by clipping parts of an element.
+
+Example: Circle
+
+```css
+.avatar {
+  clip-path: circle(50%);
+}
+```
+
+Example: Polygon
+
+```css
+.hexagon {
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+```
+
+Example: Triangle
+
+```css
+.triangle {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+```
+
+## 🗁 Mask
+
+Masks determine which parts of an element are visible.
+
+Example:
+
+```css
+.image {
+  mask-image: linear-gradient(black, transparent);
+}
+```
+
+The image gradually fades out.
+
+**Circular Mask**
+
+```css
+.image {
+  mask-image: radial-gradient(circle, black 60%, transparent 100%);
+}
+```
+
+<!-- START "Jump to Top"-->
+<p align="right">
+  <a href="#table-of-contents">Jump to Top ▲</a>
+</p>
+<!-- END "Jump to Top" -->
+
 # CSS Functions
 
 CSS functions are like built-in mini tools that let you calculate, reuse values, and create responsive designs dynamically. Its super useful for real-world UI work.
@@ -7003,7 +8973,7 @@ body {
 
 CSS Variables (aka Custom Properties) are one of the most powerful features for building scalable, maintainable UI systems.
 
-Think of them like **design tokens inside CSS**.
+    Think of them like **design tokens inside CSS**.
 
 You define variables using `--name`.
 
@@ -7230,6 +9200,18 @@ You can override anywhere
 <!-- END "Jump to Top" -->
 
 # Advanced Topics
+
+```css
+/* CHEAT SHEET */
+
+object-fit: cover;
+object-position: center;
+
+white-space: nowrap;
+word-break: break-word;
+
+content: "";
+```
 
 These are **modern CSS power features**—used a lot in real-world UI (especially dashboards, landing pages, glassmorphism, etc.). I’ll break each one with clear use-cases + practical examples.
 
@@ -7971,214 +9953,6 @@ Fix:
 .parent {
   position: relative;
 }
-```
-
-<!-- START "Jump to Top"-->
-<p align="right">
-  <a href="#table-of-contents">Jump to Top ▲</a>
-</p>
-<!-- END "Jump to Top" -->
-
-# CSS CHEATSHEET
-
-## 🗁 Layout & Display
-
-```css
-display: block | inline | inline-block | flex | grid | none;
-visibility: visible | hidden;
-overflow: hidden | auto | scroll;
-
-float: left | right;
-clear: both;
-
-box-sizing: border-box;
-```
-
-## 🗁 Box Model
-
-```css
-width: 100%;
-height: auto;
-min-width: 200px;
-max-width: 1200px;
-
-margin: 10px;
-padding: 20px;
-
-border: 1px solid #000;
-border-radius: 10px;
-```
-
-## 🗁 Background
-
-```css
-background: #fff;
-background-color: red;
-background-image: url("img.jpg");
-background-size: cover | contain;
-background-repeat: no-repeat;
-background-position: center;
-background-attachment: fixed;
-```
-
-## 🗁 Positioning
-
-```css
-position: static | relative | absolute | fixed | sticky;
-
-top: 0;
-right: 0;
-bottom: 0;
-left: 0;
-
-z-index: 10;
-```
-
-## 🗁 Text & Fonts
-
-```css
-color: #333;
-font-family: Arial, sans-serif;
-font-size: 16px;
-font-weight: 400 | bold;
-font-style: normal | italic;
-
-text-align: left | center | right;
-text-decoration: none | underline;
-text-transform: uppercase | lowercase;
-
-line-height: 1.5;
-letter-spacing: 1px;
-```
-
-## 🗁 Cursor & Interaction
-
-```css
-cursor: pointer | default | not-allowed;
-
-pointer-events: none;
-user-select: none;
-```
-
-## 🗁 Flexbox
-
-```css
-display: flex;
-
-flex-direction: row | column;
-flex-wrap: wrap;
-
-justify-content: center | space-between | space-around;
-align-items: center | flex-start | flex-end;
-
-align-content: center;
-
-gap: 10px;
-
-/* Item */
-flex: 1;
-flex-grow: 1;
-flex-shrink: 1;
-flex-basis: auto;
-align-self: center;
-```
-
-## 🗁 Grid
-
-```css
-display: grid;
-
-grid-template-columns: repeat(3, 1fr);
-grid-template-rows: auto;
-
-gap: 20px;
-
-grid-column: span 2;
-grid-row: span 2;
-
-grid-area: header;
-
-grid-template-areas:
-  "header header"
-  "sidebar content"
-  "footer footer";
-```
-
-## 🗁 Transitions & Animation
-
-```css
-transition: all 0.3s ease;
-
-transform: translateX(10px);
-transform: scale(1.1);
-transform: rotate(45deg);
-
-animation: slide 1s ease;
-
-@keyframes slide {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-```
-
-## 🗁 Effects
-
-```css
-opacity: 0.5;
-
-box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-text-shadow: 1px 1px 2px #000;
-
-filter: blur(5px);
-```
-
-## 🗁 Responsive Design
-
-```css
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-}
-```
-
-## 🗁 Lists & Tables
-
-```css
-list-style: none;
-list-style-type: disc;
-
-border-collapse: collapse;
-table-layout: fixed;
-```
-
-## 🗁 Links
-
-```css
-a:link {
-}
-a:visited {
-}
-a:hover {
-}
-a:active {
-}
-```
-
-## 🗁 Advanced / Misc
-
-```css
-object-fit: cover;
-object-position: center;
-
-white-space: nowrap;
-word-break: break-word;
-
-content: "";
 ```
 
 <!-- START "Jump to Top"-->
